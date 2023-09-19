@@ -1,6 +1,14 @@
+.container {
+  position: relative;
+}
+
 .item {
-  border: 1px solid red;
-  background-color: white;
   margin: 20px;
   padding: 20px;
+  height: 80vh;
+}
+
+.centering {
+  position: absolute;
+  top: 10vh;
 }
