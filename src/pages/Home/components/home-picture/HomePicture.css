@@ -21,14 +21,15 @@
 }
 
 /* Zooming on mouseover */
-/* img {
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-  
-  img:hover {
-    transform: scale(1.35);
-  } */
+img {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+img:hover {
+  filter: grayscale(0);
+  transform: scale(1.35);
+}

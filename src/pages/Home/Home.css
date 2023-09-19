@@ -5,10 +5,10 @@
 .item {
   margin: 20px;
   padding: 20px;
-  height: 80vh;
+  height: 100vh;
 }
 
-.centering {
+.centering-10 {
   position: absolute;
   top: 10vh;
 }
