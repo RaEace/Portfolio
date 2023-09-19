@@ -1,0 +1,28 @@
+li {
+  list-style-type: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #00539c;
+}
+
+.navbar {
+  padding-top: 15px;
+  background-color: #5cdb95;
+  font-size: 20px;
+}
+
+.right-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-right: 25px;
+}
+
+.left-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 25px;
+}
