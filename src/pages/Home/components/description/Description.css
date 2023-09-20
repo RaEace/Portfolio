@@ -1,3 +1,25 @@
-.description {
+.text-layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   color: white;
+  padding-left: 5rem;
+  margin: 5rem;
+}
+
+.text-item {
+  align-items: stretch;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
 }

@@ -5,13 +5,11 @@ import HomePicture from "./components/home-picture/HomePicture";
 const Home = () => {
   return (
     <div className="container">
-      <div className="d-flex flex-row">
-        <div className="col-4 center">
-          <HomePicture />
-        </div>
-        <div className="col-8 center">
-          <Description />
-        </div>
+      <div className="item col-4">
+        <HomePicture />
+      </div>
+      <div className="item col-8 ">
+        <Description />
       </div>
     </div>
   );

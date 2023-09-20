@@ -1,14 +1,12 @@
 .container {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }
 
-.center {
-  position: absolute;
-  top: 20vh;
-}
-
-.left-center {
-  position: absolute;
-  top: 20vh;
-  left: 10vw;
+.item {
+  position: relative;
+  top: 25vh;
 }

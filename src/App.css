@@ -1,23 +1,5 @@
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: url("/public/keyboard6.jpg");
+  background-image: url("/public/keyboard1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-h1 {
-  font-size: 2.5rem;
-  text-align: center;
-  color: var(--primary);
-}
-
-h2 {
-  font-size: 2rem;
-  text-align: center;
-  color: var(--primary);
-}
-
-:root {
-  --primary: #feffff;
-  --background: #3aafa9;
 }

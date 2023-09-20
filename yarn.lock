@@ -362,6 +362,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.49.0.tgz#86f79756004a97fa4df866835093f1df3d03c333"
   integrity sha512-1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w==
 
+"@fontsource/dosis@^5.0.12":
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/dosis/-/dosis-5.0.12.tgz#e753df08ad33c97bd15b5ab067b10dac3b7038db"
+  integrity sha512-HQumHs8629jowKQc2+MK14vRvx5O1SHInDKCn6OHBcgf1WwZyNTOmPa+M7+7zRr7FXxdWSCjcdUB0GU5AYex4Q==
+
 "@fontsource/league-spartan@^5.0.12":
   version "5.0.12"
   resolved "https://registry.yarnpkg.com/@fontsource/league-spartan/-/league-spartan-5.0.12.tgz#ae3adf0d55ba0124bbfd3a72bdc17237f0302659"
