@@ -2,13 +2,13 @@
   position: relative;
 }
 
-.item {
-  margin: 20px;
-  padding: 20px;
-  height: 100vh;
+.center {
+  position: absolute;
+  top: 20vh;
 }
 
-.centering-10 {
+.left-center {
   position: absolute;
-  top: 10vh;
+  top: 20vh;
+  left: 10vw;
 }
