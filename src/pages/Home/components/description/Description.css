@@ -1,25 +1,42 @@
 .text-layout {
   position: relative;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  padding-left: 5rem;
-  margin: 4rem;
-}
-
-.text-item {
-  align-items: stretch;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.hi-there {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  align-items: center;
+  padding: 10px;
+}
+@media (max-width: 1200px) {
+  .text-item {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin: 0rem;
+  }
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  padding: 20px 0;
+  font-size: 2em;
 }

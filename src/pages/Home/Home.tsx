@@ -7,20 +7,16 @@ const Home: React.FC = () => {
   return (
     <div>
       <div className="container">
-        <div className="item col-5">
+        <div className="img-item col-5">
           <HomePicture />
         </div>
-        <div className="item col-7">
-          <div className="d-flex flex-col">
+        <div className="desc-item col-7">
+          <div className="">
             <Description />
-            <div className="btn-section">
-              <div className="p-2">
-                <HomeBtn name="A propos de moi" />
-              </div>
-              <div className="p-2">
-                <HomeBtn name="Mon parcours" />
-              </div>
-            </div>
+          </div>
+          <div className="btn-section ">
+            <HomeBtn name="A propos de moi" />
+            <HomeBtn name="Mon parcours" />
           </div>
         </div>
       </div>

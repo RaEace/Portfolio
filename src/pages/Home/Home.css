@@ -6,16 +6,48 @@
   align-items: stretch;
 }
 
-.item {
+.img-item {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 10vh;
+  margin: 10px;
+}
+
+.desc-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 5rem;
 }
 
 .btn-section {
-  position: absolute;
   display: flex;
-  top: 30vh;
+  flex-direction: row;
   justify-content: center;
-  left: 5vh;
-  right: 5vh;
+  gap: 1rem;
+  text-align: start;
+  padding-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-item {
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 3rem;
+    top: 8vh;
+  }
 }
