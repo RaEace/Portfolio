@@ -8,10 +8,10 @@ const Description: React.FC = () => {
         I'm <span>Jules Lagny</span>
       </h1>
       <p>
-        I'm fullstack developer with over 3+ years of experience.
-        <br />
-        I'm passionned about new technologies, especially around JS and I'm
-        always looking for new challenges.
+        As a fullstack developer with 3 years of experience, I am passionate
+        about JavaScript technologies. I have worked on various projects that
+        have allowed me to develop my skills in both frontend and backend
+        development.
       </p>
     </div>
   );

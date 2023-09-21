@@ -4,7 +4,7 @@ const NavigationBar: React.FC = () => {
   return (
     <nav className="navbar">
       <ul className="navbar container-fluid">
-        <div className="p-2">
+        <div className="p-2 logo-container">
           <li>
             <a>
               <b>Jules Lagny</b>
@@ -14,17 +14,17 @@ const NavigationBar: React.FC = () => {
         <div className="p-2">
           <li>
             <a>
-              <b>A propos de moi</b>
+              <b>About me</b>
             </a>
           </li>
           <li>
             <a>
-              <b>Mon parcours</b>
+              <b>My Career</b>
             </a>
           </li>
           <li>
             <a>
-              <b>Me contacter</b>
+              <b>contact me!</b>
             </a>
           </li>
         </div>
