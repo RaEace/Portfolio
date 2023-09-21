@@ -1,24 +1,17 @@
-import { useState } from "react";
 import "./NavigationBar.css";
 
-const NavigationBar = () => {
-  const [isContactOpen, setIsContactOpen] = useState(false);
-
-  const handleContactClick = () => {
-    setIsContactOpen(!isContactOpen);
-  };
-
+const NavigationBar: React.FC = () => {
   return (
     <nav className="navbar">
-      <ul className="container-fluid">
-        <div className="left-element">
+      <ul className="navbar container-fluid">
+        <div className="p-2">
           <li>
             <a>
               <b>Jules Lagny</b>
             </a>
           </li>
         </div>
-        <div className="right-element">
+        <div className="p-2">
           <li>
             <a>
               <b>A propos de moi</b>
@@ -30,7 +23,7 @@ const NavigationBar = () => {
             </a>
           </li>
           <li>
-            <a onClick={handleContactClick}>
+            <a>
               <b>Me contacter</b>
             </a>
           </li>

@@ -1,6 +1,6 @@
 import "./HomePicture.css";
 
-const HomePicture = () => {
+const HomePicture: React.FC = () => {
   return (
     <div>
       <img

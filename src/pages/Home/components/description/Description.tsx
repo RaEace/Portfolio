@@ -1,6 +1,6 @@
 import "./Description.css";
 
-const Description = () => {
+const Description: React.FC = () => {
   return (
     <div className="text-layout">
       <h2 className="text-item">HI THERE !</h2>

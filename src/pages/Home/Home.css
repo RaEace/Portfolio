@@ -8,5 +8,14 @@
 
 .item {
   position: relative;
-  top: 25vh;
+  top: 10vh;
+}
+
+.btn-section {
+  position: absolute;
+  display: flex;
+  top: 30vh;
+  justify-content: center;
+  left: 5vh;
+  right: 5vh;
 }

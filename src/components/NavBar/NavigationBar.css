@@ -6,12 +6,12 @@ ul {
   text-align: center;
 }
 
-li {
+.navbar li {
   display: table-cell;
   position: relative;
-  padding: 15px 0;
 }
-a {
+
+.navbar a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -21,7 +21,7 @@ a {
   padding: 15px 20px;
   position: relative;
 }
-a:after {
+.navbar a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -33,12 +33,12 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after {
+.navbar a:hover:after {
   width: 100%;
   left: 0;
 }
 @media screen and (max-height: 300px) {
-  ul {
+  .navbar ul {
     margin-top: 40px;
   }
 }
@@ -46,7 +46,6 @@ a:hover:after {
 .navbar {
   font-size: 18px;
   color: #fff;
-  margin-bottom: 2rem;
   justify-content: space-between;
   align-items: center;
 }
