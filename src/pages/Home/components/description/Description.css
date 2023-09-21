@@ -17,6 +17,15 @@ p {
   font-size: 25px;
 }
 
+.presentation-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+}
+
 .hi-there {
   border-radius: 10px;
   border: 2px solid #ffffff;
