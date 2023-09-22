@@ -8,12 +8,14 @@ const Description: React.FC = () => {
       <h1 className="presentation-layout">
         I'm <TextWithAnimation text="Jules Lagny" />
       </h1>
-      <p>
-        As a fullstack developer with 3 years of experience, I am passionate
-        about JavaScript technologies. I have worked on various projects that
-        have allowed me to develop my skills in both frontend and backend
-        development.
-      </p>
+      <div className="desc-text">
+        <p>
+          As a fullstack developer with 3 years of experience, I am passionate
+          about JavaScript technologies. <br /> I have worked on various
+          projects that have allowed me to develop my skills in both frontend
+          and backend development.
+        </p>
+      </div>
     </div>
   );
 };

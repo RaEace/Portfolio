@@ -28,7 +28,6 @@ p {
 
 .hi-there {
   border-radius: 10px;
-  border: 2px solid #ffffff;
   align-items: center;
   padding: 10px;
 }
@@ -38,6 +37,17 @@ p {
     align-items: center;
     padding-bottom: 1rem;
     margin: 0rem;
+  }
+
+  .desc-text {
+    width: 1;
+  }
+
+  .hi-there {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    align-items: center;
+    top: -5vh;
   }
 }
 

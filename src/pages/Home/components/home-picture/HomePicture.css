@@ -6,7 +6,7 @@
 }
 
 .img-rounded {
-  border-radius: 73% 27% 80% 20% / 63% 58% 42% 17%;
+  border-radius: 50%;
 }
 
 /* Zooming on mouseover */
@@ -23,9 +23,9 @@
   transform: scale(1.35) rotate(360deg);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .img-render {
-    height: 20rem;
-    width: 20rem;
+    height: 25rem;
+    width: 25rem;
   }
 }
