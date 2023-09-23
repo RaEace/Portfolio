@@ -9,15 +9,15 @@ const Timeline = () => {
         <TimelineItem
           company={"Société Générale - SCAD team"}
           location={"Paris"}
-          profession={["Lead - front", "Développeur fullstack"]}
+          profession={["Lead - front", "Fullstack Developer"]}
           periodFrom={"2021"}
           periodTo={"today"}
           body={SGBody}
         />
         <TimelineItem
-          company={"Société Générale - BPM team"}
+          company={"Société Générale - BPM team - Intership"}
           location={"Paris"}
-          profession={["Frontend Developer", "(internship)"]}
+          profession={["Fullstack Developer"]}
           periodFrom={"2020"}
           periodTo={"2020"}
           body={SGInternBody}

@@ -1,3 +1,5 @@
+import "../Timeline.css";
+
 type TimelineItemProps = {
   company: string;
   location: string;
@@ -38,7 +40,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
         <ul className="fa-ul">
           {body.map((text) => {
             return (
-              <li>
+              <li className=" padding-2">
                 <i className="fa-li fa fa-hand-o-right"></i>
                 {text}
               </li>
