@@ -1,0 +1,75 @@
+h3 {
+  margin: 20px 0;
+}
+
+.experience {
+  border-left: 3px solid #ffffff;
+  padding: 0 30px;
+  margin-left: 185px;
+  color: white;
+}
+
+@media (max-width: 1250px) {
+  .experience {
+    margin-left: 0;
+    padding-right: 0;
+  }
+}
+
+.experience .item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.experience .item::before {
+  content: "";
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+  position: absolute;
+  left: -43px;
+  top: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.experience .item::after {
+  content: "";
+  border-radius: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  left: -37px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+}
+
+.experience .company-name {
+  color: #ffffff;
+}
+
+.experience .location {
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+
+.experience .location .fa {
+  margin-right: 8px;
+}
+
+.experience .job-info {
+  position: absolute;
+  left: -185px;
+  top: 0;
+}
+
+@media (max-width: 1250px) {
+  .experience .job-info {
+    position: static;
+    margin-bottom: 1rem;
+  }
+}
+
+.experience .job-info .title {
+  color: #ffffff;
+}
