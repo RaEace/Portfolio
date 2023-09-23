@@ -8,12 +8,45 @@
   margin-right: 2rem;
   margin-left: 2rem;
   gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.career-item {
-  border: 1px solid white;
-  border-radius: 10%;
+.timeline {
   flex: 1;
   gap: 10px;
+  border-radius: 10%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+.detail-item {
+  border-radius: 10%;
+}
+
+.border-and-blur {
+  border: 1px solid white;
   backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 1250px) {
+  .timeline {
+    border-radius: 5%;
+  }
+
+  .career-container {
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row;
 }

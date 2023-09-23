@@ -3,17 +3,16 @@ import "./Description.css";
 
 const Description: React.FC = () => {
   return (
-    <div className="text-layout">
-      <h2>HI THERE !</h2>
+    <div className="description text-layout">
       <h1 className="presentation-layout">
-        I'm <TextWithAnimation text="Jules" />
+        Hey, I'm <TextWithAnimation text="Jules" />
       </h1>
       <div className="desc-text">
         <p>
-          As a fullstack developer with 3 years of experience, I am passionate
-          about JavaScript technologies. <br /> I have worked on various
-          projects that have allowed me to develop my skills in both frontend
-          and backend development.
+          A fullstack developer with 3 years of experience. <br />
+          I am passionate about JavaScript technologies. <br /> I have worked on
+          various projects that have allowed me to develop my skills in both
+          frontend and backend development.
         </p>
       </div>
     </div>

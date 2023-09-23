@@ -9,13 +9,6 @@ h3 {
   color: white;
 }
 
-@media (max-width: 1250px) {
-  .experience {
-    margin-left: 0;
-    padding-right: 0;
-  }
-}
-
 .experience .item {
   position: relative;
   margin-bottom: 40px;
@@ -63,6 +56,14 @@ h3 {
   top: 0;
 }
 
+.experience .job-info .title {
+  color: #ffffff;
+}
+
+.experience .padding-2 {
+  padding-top: 5px;
+}
+
 @media (max-width: 1250px) {
   .experience .job-info {
     position: static;
@@ -70,10 +71,9 @@ h3 {
   }
 }
 
-.experience .job-info .title {
-  color: #ffffff;
-}
-
-.experience .padding-2 {
-  padding-top: 5px;
+@media (max-width: 1250px) {
+  .experience {
+    margin-left: 0;
+    padding-right: 0;
+  }
 }
