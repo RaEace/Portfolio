@@ -6,7 +6,7 @@ const Description: React.FC = () => {
     <div className="text-layout">
       <h2>HI THERE !</h2>
       <h1 className="presentation-layout">
-        I'm <TextWithAnimation text="Jules Lagny" />
+        I'm <TextWithAnimation text="Jules" />
       </h1>
       <div className="desc-text">
         <p>

@@ -1,7 +1,12 @@
 import "./MyCareer.css";
+import Timeline from "./components/timeline/Timeline";
 
 const MyCareer = () => {
-  return <h1>My carrer</h1>;
+  return (
+    <div className="career-container">
+      <Timeline />
+    </div>
+  );
 };
 
 export default MyCareer;
