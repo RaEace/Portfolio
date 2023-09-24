@@ -39,7 +39,7 @@ export const StudentBody: JSX.Element[] = [
     Worked on various project around Java, Javascript, React and NodeJS <br />
   </>,
   <>
-    <b>License with integrated prep school</b> <br />
+    <b>Bachelor's degree with integrated prep school</b> <br />
     Discovering of programming with C, C++ and C# <br />
     My first little projects with Unity (mobile game) and Java (desktop
     application).

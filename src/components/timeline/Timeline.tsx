@@ -23,7 +23,7 @@ const Timeline = () => {
           body={SGInternBody}
         />
         <TimelineItem
-          company={"EFREI"}
+          company={"EFREI Paris"}
           location={"Paris"}
           profession={["Student"]}
           periodFrom={"2016"}

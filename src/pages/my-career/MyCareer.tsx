@@ -10,13 +10,13 @@ const MyCareer = () => {
       </div>
       <div className="details">
         <div className="detail-item">
-          <CareerCard />
+          <CareerCard title="Société Générale - SCAD team" section="SCAD" />
         </div>
         <div className="detail-item">
-          <CareerCard />
+          <CareerCard title="Société Générale - BPM team" section="BPM" />
         </div>
         <div className="detail-item">
-          <CareerCard />
+          <CareerCard title="EFREI Paris" section="EFREI" />
         </div>
       </div>
     </div>

@@ -62,6 +62,7 @@ h3 {
 
 .experience .padding-2 {
   padding-top: 5px;
+  text-align: start;
 }
 
 @media (max-width: 1250px) {
