@@ -6,10 +6,10 @@ import HomePicture from "../../components/homePicture/HomePicture";
 const Home: React.FC = () => {
   return (
     <div className="container">
-      <div className="img-item col-5">
+      <div className="img-item col">
         <HomePicture />
       </div>
-      <div className="desc-item col-7">
+      <div className="desc-item col">
         <Description />
         <div className="btn-section ">
           <HomeBtn name="A propos de moi" />

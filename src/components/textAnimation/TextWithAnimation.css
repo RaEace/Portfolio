@@ -1,7 +1,6 @@
 .card {
   position: relative;
   background: transparent;
-  overflow: hidden;
   padding: 10px;
   text-transform: uppercase;
   text-decoration: none;
@@ -13,6 +12,7 @@
 .card body {
   display: flex;
   justify-content: center;
+  flex-grow: 1;
   align-items: center;
   min-height: 100vh;
 }

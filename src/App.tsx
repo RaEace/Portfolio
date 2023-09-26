@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import MyCareer from "./pages/myCareer/MyCareer";
 import AboutMe from "./pages/aboutMe/AboutMe";
-import Home from "./pages/Home/Home";
-import NavigationBar from "./components/NavBar/NavigationBar";
+import Home from "./pages/home/Home";
+import NavigationBar from "./components/navBar/NavigationBar";
 
 const App: React.FC = () => {
   return (
