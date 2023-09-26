@@ -1,7 +1,7 @@
 import HomeBtn from "../../components/button/HomeBtn";
 import "./Home.css";
 import Description from "../../components/description/Description";
-import HomePicture from "../../components/home-picture/HomePicture";
+import HomePicture from "../../components/homePicture/HomePicture";
 
 const Home: React.FC = () => {
   return (

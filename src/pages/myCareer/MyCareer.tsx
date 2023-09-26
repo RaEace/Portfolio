@@ -1,6 +1,6 @@
 import "./MyCareer.css";
 import Timeline from "../../components/timeline/Timeline";
-import CareerCard from "../../components/career-card/CareerCard";
+import CareerCard from "../../components/careerCard/CareerCard";
 
 const MyCareer = () => {
   return (

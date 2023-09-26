@@ -1,4 +1,4 @@
-import TextWithAnimation from "../text-animation/TextWithAnimation";
+import TextWithAnimation from "../textAnimation/TextWithAnimation";
 import "./Description.css";
 
 const Description: React.FC = () => {
