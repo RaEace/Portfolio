@@ -36,17 +36,15 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
           {periodFrom} - {periodTo}
         </div>
       </div>
-      <div>
-        <ul className="fa-ul">
-          {body.map((text) => {
-            return (
-              <li className=" padding-2">
-                <i className="fa-li fa fa-hand-o-right"></i>
-                {text}
-              </li>
-            );
-          })}
-        </ul>
+      <div className="timeline-content">
+        {body.map((text) => {
+          return (
+            <p className=" padding-2">
+              <i className="fa-li fa fa-hand-o-right"></i>
+              {text}
+            </p>
+          );
+        })}
       </div>
     </div>
   );

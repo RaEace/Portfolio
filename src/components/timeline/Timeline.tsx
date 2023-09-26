@@ -4,7 +4,7 @@ import { SGBody, SGInternBody, StudentBody } from "./util";
 
 const Timeline = () => {
   return (
-    <div className="container">
+    <div className="timeline-container">
       <div className="experience">
         <TimelineItem
           company={"Société Générale - SCAD team"}
